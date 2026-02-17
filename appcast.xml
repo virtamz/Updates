@@ -36,5 +36,20 @@
                 type="application/octet-stream"
             />
         </item>
+        <item>
+            <title>Version 1.1.0</title>
+            <link>https://github.com/virtamz/Updates/releases/tag/v1.1.0</link>
+            <sparkle:version>14</sparkle:version>
+            <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
+            <pubDate>Tue, 17 Feb 2026 23:08:54 +0000</pubDate>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<p>Add ElevenLabs as second Read Aloud provider, audio input device selection, and reliability improvements</p>]]></description>
+            <enclosure
+                url="https://github.com/virtamz/Updates/releases/download/v1.1.0/Vord-1.1.0.zip"
+                sparkle:edSignature="icxiUKzLH7MSArsbk4xILnnDEtravd+jgGDG7hW4N8QlyQthSeBvWrxJwZfrwYgPNIW3RSqfKwQmkIj6u+SwAQ=="
+                length="8749865"
+                type="application/octet-stream"
+            />
+        </item>
     </channel>
 </rss>
