@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+     xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <title>Vord Updates</title>
+        <description>Vord application updates.</description>
+        <language>en</language>
+        <item>
+            <title>Version 1.0.0</title>
+            <link>https://github.com/virtamz/Updates/releases/tag/v1.0.0</link>
+            <sparkle:version>5</sparkle:version>
+            <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+            <pubDate>Tue, 17 Feb 2026 10:14:27 +0000</pubDate>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<p>Initial release</p>]]></description>
+            <enclosure
+                url="https://github.com/virtamz/Updates/releases/download/v1.0.0/Vord-1.0.0.zip"
+                sparkle:edSignature="+5nE8JykIiLgjNJoqPxjYExHPlwBWQGVpZjNYAkX/XUhvaQaExGEkbGbmM4XlchLwQ64isWi4ati4h67JEh+DQ=="
+                length="8608577"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
+            <title>Version 1.0.1</title>
+            <link>https://github.com/virtamz/Updates/releases/tag/v1.0.1</link>
+            <sparkle:version>7</sparkle:version>
+            <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
+            <pubDate>Tue, 17 Feb 2026 10:22:07 +0000</pubDate>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<p>Add DMG installer to release pipeline</p>]]></description>
+            <enclosure
+                url="https://github.com/virtamz/Updates/releases/download/v1.0.1/Vord-1.0.1.zip"
+                sparkle:edSignature="Cq4TjvZRWMJ/RfOCYN/CNZUokpv7Y/Ol3nlKCbqLeNoG2+URfQO4Y6lQkOFAyzqHyUjefpFTZCQt+xiGFaTCBQ=="
+                length="8608545"
+                type="application/octet-stream"
+            />
+        </item>
+    </channel>
+</rss>
