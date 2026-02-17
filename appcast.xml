@@ -51,5 +51,20 @@
                 type="application/octet-stream"
             />
         </item>
+        <item>
+            <title>Version 1.1.1</title>
+            <link>https://github.com/virtamz/Updates/releases/tag/v1.1.1</link>
+            <sparkle:version>15</sparkle:version>
+            <sparkle:shortVersionString>1.1.1</sparkle:shortVersionString>
+            <pubDate>Tue, 17 Feb 2026 23:16:08 +0000</pubDate>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<p>API keys now persist across app restarts — no manual .env file needed</p>]]></description>
+            <enclosure
+                url="https://github.com/virtamz/Updates/releases/download/v1.1.1/Vord-1.1.1.zip"
+                sparkle:edSignature="M73n+aOXkNJ0d5i3tQZQU5j6mXQbMYcneoXgFZRkenx+gqVvhl6Z+CyhZjYMBRvSqaV50eoPUon1NNWbyl0BBA=="
+                length="8753350"
+                type="application/octet-stream"
+            />
+        </item>
     </channel>
 </rss>
