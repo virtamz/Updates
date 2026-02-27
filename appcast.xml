@@ -66,5 +66,20 @@
                 type="application/octet-stream"
             />
         </item>
+        <item>
+            <title>Version 2.0.0</title>
+            <link>https://github.com/virtamz/Updates/releases/tag/v2.0.0</link>
+            <sparkle:version>16</sparkle:version>
+            <sparkle:shortVersionString>2.0.0</sparkle:shortVersionString>
+            <pubDate>Fri, 27 Feb 2026 06:37:03 +0000</pubDate>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<p>Meeting notetaker: real-time transcription, AI summaries, floating indicator. Developer ID signed with hardened runtime. New app icon.</p>]]></description>
+            <enclosure
+                url="https://github.com/virtamz/Updates/releases/download/v2.0.0/Vord-2.0.0.zip"
+                sparkle:edSignature="jswscPmfPI7mwOk4h6tMth72EBu0AGn/pXBrtFYgGLxS//5GvZao3HaSSDqtP2XUuhqXHeDbm33PVabS2EX1CQ=="
+                length="9680325"
+                type="application/octet-stream"
+            />
+        </item>
     </channel>
 </rss>
