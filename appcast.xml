@@ -81,5 +81,20 @@
                 type="application/octet-stream"
             />
         </item>
+        <item>
+            <title>Version 2.0.1</title>
+            <link>https://github.com/virtamz/Updates/releases/tag/v2.0.1</link>
+            <sparkle:version>17</sparkle:version>
+            <sparkle:shortVersionString>2.0.1</sparkle:shortVersionString>
+            <pubDate>Fri, 27 Feb 2026 06:45:37 +0000</pubDate>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<p>Test auto-update pipeline</p>]]></description>
+            <enclosure
+                url="https://github.com/virtamz/Updates/releases/download/v2.0.1/Vord-2.0.1.zip"
+                sparkle:edSignature="DPa1OiYPne4dvIVxcx0i4M7R5Mo2mM/lliYmLE/BiCaJPPQgR7sbNQVLtZFgTtIkACNfgHt1NqvI+QVkP77WCw=="
+                length="9680355"
+                type="application/octet-stream"
+            />
+        </item>
     </channel>
 </rss>
