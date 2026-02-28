@@ -96,5 +96,20 @@
                 type="application/octet-stream"
             />
         </item>
+        <item>
+            <title>Version 2.0.2</title>
+            <link>https://github.com/virtamz/Updates/releases/tag/v2.0.2</link>
+            <sparkle:version>18</sparkle:version>
+            <sparkle:shortVersionString>2.0.2</sparkle:shortVersionString>
+            <pubDate>Sat, 28 Feb 2026 23:23:23 +0000</pubDate>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<p>Fix UI freezes on Intel Macs caused by IOKit HID device enumeration blocking the main thread. Moved HID monitor to dedicated background thread. Added native macOS toolbar for meeting window navigation. UI polish and improvements.</p>]]></description>
+            <enclosure
+                url="https://github.com/virtamz/Updates/releases/download/v2.0.2/Vord-2.0.2.zip"
+                sparkle:edSignature="Clg4mgn9NLNbGCCE75k1QUBcsMrh5rahMglxnCs4DT/TP54uVGpmCrLH9opRqeFXvkzOCNAQ0vEroO/QMnMFCA=="
+                length="9697924"
+                type="application/octet-stream"
+            />
+        </item>
     </channel>
 </rss>
