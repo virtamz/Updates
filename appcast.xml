@@ -111,5 +111,20 @@
                 type="application/octet-stream"
             />
         </item>
+        <item>
+            <title>Version 2.0.3</title>
+            <link>https://github.com/virtamz/Updates/releases/tag/v2.0.3</link>
+            <sparkle:version>19</sparkle:version>
+            <sparkle:shortVersionString>2.0.3</sparkle:shortVersionString>
+            <pubDate>Wed, 04 Mar 2026 00:15:15 +0000</pubDate>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<p>Fix meeting transcript freezing mid-recording. WebSocket reconnection had a race condition that silently killed the audio stream — transcript would stop updating while audio kept recording. Now reconnects reliably.</p>]]></description>
+            <enclosure
+                url="https://github.com/virtamz/Updates/releases/download/v2.0.3/Vord-2.0.3.zip"
+                sparkle:edSignature="R6Fra+9cpcFF/Xzs5axI8kxAOjFo/0BcslZarEOLE6l2+srJB5TRJjijDUk9fBpQ7eC5UpZGKkrTHlXbsuv1AA=="
+                length="9699174"
+                type="application/octet-stream"
+            />
+        </item>
     </channel>
 </rss>
