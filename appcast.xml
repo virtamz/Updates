@@ -126,5 +126,20 @@
                 type="application/octet-stream"
             />
         </item>
+        <item>
+            <title>Version 2.1.0</title>
+            <link>https://github.com/virtamz/Updates/releases/tag/v2.1.0</link>
+            <sparkle:version>20</sparkle:version>
+            <sparkle:shortVersionString>2.1.0</sparkle:shortVersionString>
+            <pubDate>Thu, 26 Mar 2026 03:00:13 +0000</pubDate>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<p>Switch Hebrew meeting transcription to Soniox for real-time streaming with speaker diarization. Fix memory leak and deadlocks in meeting recording.</p>]]></description>
+            <enclosure
+                url="https://github.com/virtamz/Updates/releases/download/v2.1.0/Vord-2.1.0.zip"
+                sparkle:edSignature="LqRN3P1s8gV3zBSNJZckAD7BlHkMfEDxmunyBoBSXnidqiXlD7WShA4bVaVfwfYkZj+mkNUOUSSWQv9IFITDBQ=="
+                length="9732350"
+                type="application/octet-stream"
+            />
+        </item>
     </channel>
 </rss>
