@@ -141,5 +141,20 @@
                 type="application/octet-stream"
             />
         </item>
+        <item>
+            <title>Version 2.1.1</title>
+            <link>https://github.com/virtamz/Updates/releases/tag/v2.1.1</link>
+            <sparkle:version>22</sparkle:version>
+            <sparkle:shortVersionString>2.1.1</sparkle:shortVersionString>
+            <pubDate>Sat, 02 May 2026 07:20:42 +0000</pubDate>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<p>Fix app freeze when network is interrupted during meeting recording. Live transcription now resumes automatically when the connection returns.</p>]]></description>
+            <enclosure
+                url="https://github.com/virtamz/Updates/releases/download/v2.1.1/Vord-2.1.1.zip"
+                sparkle:edSignature="62XANfg1n29a56la5xPe+waq7ZO1jBLWp/3dpOZ8q+ObWxxyPWfztmeaD0wJ5yasMtYb0pOLN+SlEmqWVwsyAA=="
+                length="9925167"
+                type="application/octet-stream"
+            />
+        </item>
     </channel>
 </rss>
