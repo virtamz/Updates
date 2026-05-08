@@ -163,37 +163,7 @@
             <sparkle:shortVersionString>2.2.0</sparkle:shortVersionString>
             <pubDate>Fri, 08 May 2026 04:13:12 +0000</pubDate>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<p>v2.2.0: post-meeting transcript polish, multi-language support, and a bunch of quality fixes.
-
-Meeting Polish (new)
-
-After every English meeting ends, Vord automatically re-transcribes via AssemblyAI's Universal-3 Pro for higher word accuracy and proper speaker diarization. The live streaming transcript labels everyone as "Speaker 1"; polish actually distinguishes voices. Toggle between Polished and Original in the meeting detail view.
-
-Speaker names are auto-detected from conversation context when possible. Click any speaker badge to rename manually.
-
-Multi-language polish
-
-Hebrew, Hindi, and 90+ other languages get the same polish treatment via AssemblyAI Universal-2. Code-switching (English+Hebrew, English+Hindi, etc.) is preserved.
-
-Auto-generated meeting titles
-
-Vord now suggests a short, descriptive title for each meeting based on the summary. Manually rename anytime; your edit always wins, and auto-titles never overwrite manual changes.
-
-Native-feel title rename
-
-Click the meeting title to edit, click anywhere else (or press Enter) to save. Escape reverts. Hover the title for a pencil hint.
-
-Improvements:
-- "Polished" badge in the meeting library for processed sessions
-- Markdown export now includes the polished transcript when available
-- Regenerating summary from a polished transcript uses GPT-5.5 for faster output
-- Speaker rename UI in the polished view
-
-Fixed:
-- System audio static: recordings with system audio (remote callers via Zoom, Meet, etc.) no longer have static or robotic distortion. Was a stereo to mono downmix clipping issue.
-- WebSocket livelock: long network outages during meetings no longer cause the app to hang.
-
-Apple notarization: Vord is now Apple-notarized. Fresh installs and updates no longer trigger "unidentified developer" warnings, and macOS permissions (Accessibility, Input Monitoring) stick on the first grant. No more uncheck/recheck dance when sharing with friends.</p>]]></description>
+            <description><![CDATA[<h3>Meeting Polish (new)</h3><p>After every English meeting ends, Vord automatically re-transcribes via AssemblyAI's Universal-3 Pro for higher word accuracy and proper speaker diarization. The live streaming transcript labels everyone as "Speaker 1"; polish actually distinguishes voices. Toggle between Polished and Original in the meeting detail view.</p><p>Speaker names are auto-detected from conversation context when possible. Click any speaker badge to rename manually.</p><h3>Multi-language polish</h3><p>Hebrew, Hindi, and 90+ other languages get the same polish treatment via AssemblyAI Universal-2. Code-switching (English+Hebrew, English+Hindi, etc.) is preserved.</p><h3>Auto-generated meeting titles</h3><p>Vord now suggests a short, descriptive title for each meeting based on the summary. Manually rename anytime; your edit always wins, and auto-titles never overwrite manual changes.</p><h3>Native-feel title rename</h3><p>Click the meeting title to edit, click anywhere else (or press Enter) to save. Escape reverts. Hover the title for a pencil hint.</p><h3>Improvements</h3><ul><li>"Polished" badge in the meeting library for processed sessions</li><li>Markdown export now includes the polished transcript when available</li><li>Regenerating summary from a polished transcript uses GPT-5.5 for faster output</li><li>Speaker rename UI in the polished view</li></ul><h3>Bug fixes</h3><ul><li><strong>System audio static</strong>: recordings with system audio (remote callers via Zoom, Meet, etc.) no longer have static or robotic distortion. Was a stereo to mono downmix clipping issue.</li><li><strong>WebSocket livelock</strong>: long network outages during meetings no longer cause the app to hang.</li></ul><h3>Apple notarization</h3><p>Vord is now Apple-notarized. Fresh installs and updates no longer trigger "unidentified developer" warnings, and macOS permissions (Accessibility, Input Monitoring) stick on the first grant. No more uncheck/recheck dance when sharing with friends.</p>]]></description>
             <enclosure
                 url="https://github.com/virtamz/Updates/releases/download/v2.2.0/Vord-2.2.0.zip"
                 sparkle:edSignature="fUSqBQ0Qhasb9TMZHhr2ZMgtG2a2MUIeOVPUkx9fzCJiJNrAqUIIDTyVJZa0XmuNFfbTi7H0+mZ4fmuCsFYcBg=="
