@@ -213,5 +213,47 @@
                 type="application/octet-stream"
             />
         </item>
+        <item>
+            <title>Version 2.3.1</title>
+            <link>https://github.com/virtamz/Updates/releases/tag/v2.3.1</link>
+            <sparkle:version>88</sparkle:version>
+            <sparkle:shortVersionString>2.3.1</sparkle:shortVersionString>
+            <pubDate>Sun, 10 May 2026 19:07:40 +0000</pubDate>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>What's new in 2.3.0</h3>
+<p><strong>Polish now works on long meetings.</strong> Recordings over ~50 minutes were silently failing. Fixed.</p>
+<p><strong>Smarter speaker names.</strong> Vord picks up names from how people address each other in conversation, not just explicit self-introductions. Multi-speaker accuracy is dramatically better.</p>
+<p><strong>Better dark-mode handling.</strong> Vord stays in light mode regardless of your macOS appearance setting. (Proper dark mode coming later.)</p>
+<p><strong>Right Option as a backup hotkey.</strong> Hold Right Option (⌥) to record if Globe/Fn isn't your thing. Right Option + Space locks recording, same as Fn + Space.</p>
+
+<h3>Fixed</h3>
+<ul>
+  <li>Force-quit recovery now keeps audio attached to the recovered meeting — Polish stays available instead of being permanently disabled.</li>
+  <li>Cloud connection status is real now: only shows \"Connected\" after a successful test, not just because the field has text in it.</li>
+</ul>
+
+<h3>If you missed 2.2.0</h3>
+<h3>Meeting Polish (new)</h3>
+<p>After every English meeting ends, Vord automatically re-transcribes via AssemblyAI's Universal-3 Pro for higher word accuracy and proper speaker diarization. Streaming diarization can struggle to distinguish voices reliably; polish gets it right. Toggle between Polished and Original in the meeting detail view.</p>
+<p>Speaker names are auto-detected from conversation context when possible. Click any speaker badge to rename manually.</p>
+<h3>Multi-language polish</h3>
+<p>Hebrew, Hindi, and 90+ other languages get the same polish treatment via AssemblyAI Universal-2. Code-switching (English+Hebrew, English+Hindi, etc.) is preserved.</p>
+<h3>Auto-generated meeting titles</h3>
+<p>Vord now suggests a short, descriptive title for each meeting based on the summary. Manually rename anytime; your edit always wins, and auto-titles never overwrite manual changes.</p>
+<h3>Native-feel title rename</h3>
+<p>Click the meeting title to edit, click anywhere else (or press Enter) to save. Escape reverts. Hover the title for a pencil hint.</p>
+<h3>Improvements</h3>
+<ul><li>\"Polished\" badge in the meeting library for processed sessions</li><li>Markdown export now includes the polished transcript when available</li><li>Regenerating summary from a polished transcript uses GPT-5.5 for higher-quality output</li><li>Speaker rename UI in the polished view</li></ul>
+<h3>Bug fixes</h3>
+<ul><li><strong>System audio static</strong>: recordings with system audio (remote callers via Zoom, Meet, etc.) no longer have static or robotic distortion.</li><li><strong>WebSocket livelock</strong>: long network outages during meetings no longer cause the app to hang.</li></ul>
+<h3>Apple notarization</h3>
+<p>Vord is now Apple-notarized. Fresh installs and updates no longer trigger \"unidentified developer\" warnings, and macOS permissions (Accessibility, Input Monitoring) stick on the first grant.</p>]]></description>
+            <enclosure
+                url="https://github.com/virtamz/Updates/releases/download/v2.3.1/Vord-2.3.1.zip"
+                sparkle:edSignature="6Hg7hoXKyVz29YqW1cWbkkGo962N5UukTohELx649L6Ss78Xeqxlzf/8W5fNz5jfXn9TNw2QwQ2Kznce1i7RAg=="
+                length="10322279"
+                type="application/octet-stream"
+            />
+        </item>
     </channel>
 </rss>
