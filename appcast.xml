@@ -325,5 +325,22 @@
                 type="application/octet-stream"
             />
         </item>
+        <item>
+            <title>Version 2.4.1</title>
+            <link>https://github.com/virtamz/Updates/releases/tag/v2.4.1</link>
+            <sparkle:version>114</sparkle:version>
+            <sparkle:shortVersionString>2.4.1</sparkle:shortVersionString>
+            <pubDate>Thu, 21 May 2026 21:37:43 +0000</pubDate>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>Hotfix</h3>
+<p>Fixes a stuck-state bug in proxy mode: friends who upgraded with their dictation engine set to OpenAI or Fireworks (rare carryover from older builds) were locked out of the engine picker entirely — the API tab where those engines used to be managed is hidden in proxy mode, so there was no in-app way to switch back to Deepgram or Soniox.</p>
+<p>v2.4.1 auto-migrates the saved engine to Deepgram on first launch when an unsupported provider was selected. After updating, the Deepgram/Soniox picker reappears under Settings &rarr; General &rarr; Dictation.</p>]]></description>
+            <enclosure
+                url="https://github.com/virtamz/Updates/releases/download/v2.4.1/Vord-2.4.1.zip"
+                sparkle:edSignature="T20IbzoDwX3Y7+P/ElAAr710IFic8LQNggeJk8pUFAoewYEQ4hOJHTHvAM8RPsApi80q0FVS9pXVuiiRoVGACw=="
+                length="10396637"
+                type="application/octet-stream"
+            />
+        </item>
     </channel>
 </rss>
