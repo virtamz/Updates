@@ -297,5 +297,33 @@
                 type="application/octet-stream"
             />
         </item>
+        <item>
+            <title>Version 2.4.0</title>
+            <link>https://github.com/virtamz/Updates/releases/tag/v2.4.0</link>
+            <sparkle:version>112</sparkle:version>
+            <sparkle:shortVersionString>2.4.0</sparkle:shortVersionString>
+            <pubDate>Thu, 21 May 2026 21:23:19 +0000</pubDate>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>New: Dictation Cleanup (opt-in)</h3>
+<p>Enable in Settings → Text → "Clean up dictation output". Sends your raw transcript through GPT-4.1 to remove fillers, fix punctuation, and add paragraph breaks. Preserves your wording (no rephrasing). Off by default.</p>
+<ul>
+<li>STT-agnostic: works with Deepgram (English) and Soniox (Hebrew + 60 languages)</li>
+<li>Skipped automatically in code editors (Xcode, VS Code, Cursor, JetBrains, Sublime, Zed) and password managers (1Password, Bitwarden)</li>
+<li>Skipped on dictations under 10 words (instant paste for quick messages)</li>
+<li>Hebrew-aware: routes Hebrew dictation through a Hebrew prompt with bidi-correct paste of mixed Hebrew+English</li>
+<li>Self-correction: say "scratch that", "nevermind", "no wait" mid-sentence and the wrong part is dropped</li>
+<li>Failure falls back to raw transcript: never blocks a paste</li>
+</ul>
+<h3>Fixes</h3>
+<ul>
+<li>Hebrew meeting transcripts no longer get incorrectly re-polished by AssemblyAI (which has 4x worse Hebrew WER than Soniox)</li>
+</ul>]]></description>
+            <enclosure
+                url="https://github.com/virtamz/Updates/releases/download/v2.4.0/Vord-2.4.0.zip"
+                sparkle:edSignature="ZWzq0+zdgSr0X8oBNX0i1iVxaI72kT+lvPBTksJmlDZzajPzj+p4D7BVV3JjrHK2ihi59dfPm1/OCxaA4sIjDQ=="
+                length="10396593"
+                type="application/octet-stream"
+            />
+        </item>
     </channel>
 </rss>
