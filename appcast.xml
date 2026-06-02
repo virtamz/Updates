@@ -342,5 +342,20 @@
                 type="application/octet-stream"
             />
         </item>
+        <item>
+            <title>Version 2.4.2</title>
+            <link>https://github.com/virtamz/Updates/releases/tag/v2.4.2</link>
+            <sparkle:version>121</sparkle:version>
+            <sparkle:shortVersionString>2.4.2</sparkle:shortVersionString>
+            <pubDate>Tue, 02 Jun 2026 02:58:48 +0000</pubDate>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>What's new in 2.4.2</h3><ul><li><strong>Fixed a memory leak on long meetings</strong>: Vord could grow toward ~2 GB of RAM on multi-hour calls; memory now stays flat for the whole meeting.</li><li>Updated the Soniox transcription model (Hebrew meetings) to stt-rt-v4.</li></ul>]]></description>
+            <enclosure
+                url="https://github.com/virtamz/Updates/releases/download/v2.4.2/Vord-2.4.2.zip"
+                sparkle:edSignature="Ds8vMDstXTe1XrmHiMg7dnq/MHzSXV5BfjtqOm4ghoHvgRP3UmboAiusjpKCYbN0p5Xg1+XvHafTyCh1YIISAg=="
+                length="10404396"
+                type="application/octet-stream"
+            />
+        </item>
     </channel>
 </rss>
