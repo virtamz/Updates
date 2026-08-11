@@ -357,5 +357,20 @@
                 type="application/octet-stream"
             />
         </item>
+        <item>
+            <title>Version 2.5.0</title>
+            <link>https://github.com/virtamz/Updates/releases/tag/v2.5.0</link>
+            <sparkle:version>466</sparkle:version>
+            <sparkle:shortVersionString>2.5.0</sparkle:shortVersionString>
+            <pubDate>Tue, 11 Aug 2026 20:18:56 +0000</pubDate>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>Vord 2.5.0</h3><ul><li><strong>Fixed:</strong> AI meeting summaries and auto-titles stopped working after an OpenAI model retirement — restored.</li><li><strong>New:</strong> Inworld read-aloud voices — 38 natural voices for the Read Aloud feature, including Hebrew (Yael).</li><li><strong>Improved:</strong> Hebrew meeting transcripts now polished with AssemblyAI Universal-3.5 Pro (native Hebrew support).</li><li><strong>Fixed:</strong> rare dictation hang (stuck on Transcribing for up to a minute) on unstable connections.</li></ul>]]></description>
+            <enclosure
+                url="https://github.com/virtamz/Updates/releases/download/v2.5.0/Vord-2.5.0.zip"
+                sparkle:edSignature="hoXspkQphJeHa9q4PZnP5kv1/GN4hy3ZJJJHsyMnv8LiRPaDuyMtKGPDOEB3g5z6Yla9rhv+Z5U9iFxl1Oa2BQ=="
+                length="11628117"
+                type="application/octet-stream"
+            />
+        </item>
     </channel>
 </rss>
