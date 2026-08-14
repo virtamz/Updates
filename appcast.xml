@@ -372,5 +372,26 @@
                 type="application/octet-stream"
             />
         </item>
+        <item>
+            <title>Version 2.5.1</title>
+            <link>https://github.com/virtamz/Updates/releases/tag/v2.5.1</link>
+            <sparkle:version>514</sparkle:version>
+            <sparkle:shortVersionString>2.5.1</sparkle:shortVersionString>
+            <pubDate>Fri, 14 Aug 2026 19:37:13 +0000</pubDate>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>Fixes</h3>
+<ul>
+<li><strong>Vord Recorder pairing is reachable again.</strong> The Devices tab stayed hidden until a pendant was already paired &mdash; but pairing lives inside that tab, so on a fresh install there was no way to reach it at all.</li>
+<li><strong>Scanning for a pendant can be stopped.</strong> It now has a Stop button and ends on its own after 45 seconds, instead of spinning indefinitely when no pendant is found.</li>
+<li><strong>Removed a misleading Connect action.</strong> It showed a green &ldquo;Connected&rdquo; state but left the pendant unpaired, so Sync &amp; Import silently did nothing afterwards.</li>
+</ul>
+<p>No changes to dictation, meetings, or read aloud.</p>]]></description>
+            <enclosure
+                url="https://github.com/virtamz/Updates/releases/download/v2.5.1/Vord-2.5.1.zip"
+                sparkle:edSignature="ZAKbeo12I37rcol5I9zoghkXcadbRHNESaBTCv9OHYuGrOHYcUxP0T1+L9aTFMthSp9oLEQxbSEzI42XQlplBQ=="
+                length="11641808"
+                type="application/octet-stream"
+            />
+        </item>
     </channel>
 </rss>
