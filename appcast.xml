@@ -393,5 +393,20 @@
                 type="application/octet-stream"
             />
         </item>
+        <item>
+            <title>Version 2.6.0</title>
+            <link>https://github.com/virtamz/Updates/releases/tag/v2.6.0</link>
+            <sparkle:version>596</sparkle:version>
+            <sparkle:shortVersionString>2.6.0</sparkle:shortVersionString>
+            <pubDate>Tue, 18 Aug 2026 05:45:45 +0000</pubDate>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>Vord 2.6.0 — the new Vord window</h3><ul><li><strong>New:</strong> one Vord window. Dictation, Meetings and Settings live in a single window with a sidebar; the separate Settings window and the Meetings gear pane are gone. ⌘ , opens Settings inside the window — the shortcut is shown next to Settings in the sidebar.</li><li><strong>New look:</strong> cleaner, quieter design — neutral canvas, white cards, dark mode follows your system setting.</li><li><strong>New:</strong> Dictation page — your recent dictations (with Copy), custom vocabulary and stats in one place; the menu-bar popover stays as the quick glance and opens the window with “Open Vord”.</li><li><strong>New:</strong> Vord Recorder row in the sidebar for pendant users — battery and last sync at a glance, one click to Sync.</li><li><strong>Improved:</strong> meeting list shows where each recording came from (Mac or Recorder); Settings › Connections is now the one place for your cloud token and Soniox key.</li><li><strong>Fixed:</strong> the “Record this meeting?” prompt could be unreachable when the Vord window was closed; “Send crash reports” applies immediately; a pasted Soniox key with a stray space no longer reads as invalid.</li></ul>]]></description>
+            <enclosure
+                url="https://github.com/virtamz/Updates/releases/download/v2.6.0/Vord-2.6.0.zip"
+                sparkle:edSignature="sETXGYPFFvvrmfUoUqNLsUeFKpVN2NwDAu4amPoa77zCafbPwMMPD+O4WLKsEoFzY/LEVw8uGy3H1UH1BI5UBw=="
+                length="11656983"
+                type="application/octet-stream"
+            />
+        </item>
     </channel>
 </rss>
