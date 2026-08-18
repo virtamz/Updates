@@ -408,5 +408,20 @@
                 type="application/octet-stream"
             />
         </item>
+        <item>
+            <title>Version 2.7.0</title>
+            <link>https://github.com/virtamz/Updates/releases/tag/v2.7.0</link>
+            <sparkle:version>603</sparkle:version>
+            <sparkle:shortVersionString>2.7.0</sparkle:shortVersionString>
+            <pubDate>Tue, 18 Aug 2026 07:27:06 +0000</pubDate>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>Vord 2.7.0 — the new Vord window, and one better meeting summary</h3><p><strong>The new Vord window (from 2.6.0, in case you missed it):</strong></p><ul><li><strong>New:</strong> one Vord window. Dictation, Meetings and Settings live in a single window with a sidebar; the separate Settings window and the Meetings gear pane are gone. ⌘ , opens Settings inside the window — the shortcut is shown next to Settings in the sidebar.</li><li><strong>New look:</strong> cleaner, quieter design — neutral canvas, white cards, dark mode follows your system setting.</li><li><strong>New:</strong> Dictation page — your recent dictations (with Copy), custom vocabulary and stats in one place; the menu-bar popover stays as the quick glance and opens the window with “Open Vord”.</li><li><strong>New:</strong> Vord Recorder row in the sidebar for pendant users — battery and last sync at a glance, one click to Sync.</li><li><strong>Improved:</strong> meeting list shows where each recording came from (Mac or Recorder); Settings › Connections is now the one place for your cloud token and Soniox key.</li><li><strong>Fixed:</strong> the “Record this meeting?” prompt could be unreachable when the Vord window was closed; “Send crash reports” applies immediately; a pasted Soniox key with a stray space no longer reads as invalid.</li></ul><p><strong>New in 2.7.0 — meeting summaries:</strong></p><ul><li><strong>Improved:</strong> the summary and title are now generated once, from the polished transcript with real speaker names — no more “Generate Summary from Polished” step. It arrives a minute or two after the meeting ends, once polish finishes; the meeting itself completes immediately and you can start the next one right away.</li><li><strong>Improved:</strong> meetings that can’t be polished (Hebrew, missing audio) still get an immediate summary; if polish fails, or Vord quits mid-way, you still get a summary and title — Vord retries by itself and shows a Retry button if it ever can’t.</li><li><strong>Improved:</strong> upgraded the models behind summaries, titles and speaker naming — more accurate action-item attribution and fewer invented details.</li><li><strong>Changed:</strong> the More menu has a single “Regenerate Summary”; a meeting without a summary shows a Generate button right in the card.</li><li><strong>Fixed:</strong> a rare case where a slow audio shutdown after a meeting could block starting the next one.</li></ul>]]></description>
+            <enclosure
+                url="https://github.com/virtamz/Updates/releases/download/v2.7.0/Vord-2.7.0.zip"
+                sparkle:edSignature="7ngyotFdKUQnq9LCp2XRF5skF4Q4Z0L4532cwqOv0yinJn0vqhPNnW+vBV2mQATtXpYHEZn/tVgPLF3zQTiABA=="
+                length="11714423"
+                type="application/octet-stream"
+            />
+        </item>
     </channel>
 </rss>
